@@ -1,32 +1,49 @@
-# Bio TikTok — Template
+# ⛏️ Minecraft Creator Bio-Link
 
-Sederhana satu-halaman HTML/CSS/JS untuk diletakkan di bio TikTok Anda.
+<div align="center">
+  <img src="assets/Profiletiktok.png" width="150" height="150" style="border-radius: 50%; border: 5px solid #ff4d4d;">
+  
+  ### **@tiktok.abr**
+  *Minecraft Streamer & Content Creator*
 
-File:
-- `index.html` — struktur halaman
-- `styles.css` — gaya responsif
-- `script.js` — data profil dan interaksi (salin link)
+  [![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge&logo=github)](https://abr100.github.io/bio-abr0123/)
+  [![Minecraft](https://img.shields.io/badge/Minecraft-1.20+-red?style=for-the-badge&logo=minecraft)](https://www.minecraft.net/)
+  [![Platform](https://img.shields.io/badge/Platform-TikTok-black?style=for-the-badge&logo=tiktok)](https://www.tiktok.com/@tiktok.abr)
 
-Cara kustomisasi:
-- Edit `script.js` untuk mengganti `profile` (handle, tautan, email, avatar, bio).
-- Ganti `avatar-placeholder.png` dengan foto Anda.
-- Warna utama (aksen) telah diset ke merah; ubah `--accent` di `styles.css` jika perlu.
+</div>
 
-Contoh pengaturan awal di proyek ini:
-- Username: `@ABR`
-- Konten: Minecraft (builds, tips, gameplay)
-- Warna: Merah
+---
 
-Jalankan lokal (Python):
+## 💎 Features
+- 🚀 **Fast & Responsive**: Didesain khusus untuk tampilan mobile TikTok.
+- 🔥 **Minecraft Aesthetic**: Dilengkapi dengan animasi Redstone dan dekorasi blok.
+- 🔗 **Easy Access**: Semua link penting (Discord, Saweria, WhatsApp) dalam satu tempat.
+- 📋 **Copy Link**: Fitur salin link situs hanya dengan satu klik.
 
-```bash
-python -m http.server 8000
+## 🛠️ Tech Stack
+- **Languages**: HTML5, CSS3 (Vanilla), JavaScript
+- **Icons**: Font Awesome 6
+- **Hosting**: GitHub Pages (Automatic Deploy with GitHub Actions)
+
+## 📁 Struktur Proyek
+```text
+├── .github/workflows/static.yml  # Deployment otomatis
+├── assets/                       # Gambar & dekorasi
+├── index.html                    # Struktur web
+├── script.js                     # Data profil & logika
+└── styles.css                    # Desain responsif
 ```
 
-Lalu buka http://localhost:8000 di browser dan buka `index.html`.
+## 🔐 Keamanan & Hosting
+Proyek ini dihost menggunakan **GitHub Pages** yang sangat aman karena bersifat statis (tidak ada database yang bisa diretas). Perubahan website hanya bisa dilakukan melalui repositori ini.
 
-Deployment cepat:
-- GitHub Pages: buat repository, push file, aktifkan Pages dari `main` branch.
-- Netlify / Vercel: tarik dari repository atau drag-and-drop folder build.
+**Tips Keamanan bagi Viewer:**
+- ✅ Situs ini 100% aman untuk diakses.
+- ✅ Tidak mengumpulkan data pribadi (Cookies/Login).
 
-Jika Anda mau, kirimkan bio, warna utama, foto, dan tautan lain — saya akan sesuaikan desainnya.
+---
+
+<div align="center">
+  <p>Dibuat dengan ❤️ oleh ABR untuk komunitas Minecraft.</p>
+  <a href="https://github.com/Abr100/bio-abr0123/actions"><img src="https://github.com/Abr100/bio-abr0123/workflows/Deploy%20static%20content%20to%20Pages/badge.svg" alt="Deploy Status"></a>
+</div>
